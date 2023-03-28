@@ -1,6 +1,6 @@
 /* eslint-disable default-case */
 export default function upload(method, body = null) {
-  const URL = 'localhost:7070';
+  const URL = 'http://localhost:7070';
 
   return new Promise((resolve, reject) => {
     const params = new URLSearchParams();
